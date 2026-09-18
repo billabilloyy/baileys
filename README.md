@@ -1,22 +1,22 @@
-# @LendKzn/baileys
+# Billa Baileys
 
 A high-performance WhatsApp Web library built on [Baileys](https://github.com/WhiskeySockets/Baileys), with critical paths accelerated via a [Rust WASM bridge](https://github.com/7ucg/whatsapp-rust-bridge).
 
 <p align="center">
-  <img alt="package" src="https://img.shields.io/badge/package-%40LendKzn%2Fbaileys-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
-  <img alt="version" src="https://img.shields.io/badge/version-NewUpdated-blue?style=for-the-badge">
+  <img alt="package" src="https://img.shields.io/badge/package-%40billabilloyy%2Fbaileys-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
+  <img alt="version" src="https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge">
 </p>
 <p align="center">
-  <a href="https://t.me/lendd3"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-lendd3-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"></a>
-  <a href="https://github.com/LendKzn"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-LendKzn-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://t.me/Fomobanir"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-Fomobanir-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"></a>
+  <a href="https://github.com/billabilloyy"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-LendKzn-181717?style=for-the-badge&logo=github&logoColor=white"></a>
 </p>
 
 | | |
 |---|---|
-| 📦 **Package** | `@lendkzn/baileys` |
-| 🏷️ **Version** | `5.0.1` |
-| 💬 **Telegram** | [t.me/lendd3](https://t.me/lendd3) |
-| 🐙 **GitHub** | [github.com/LendKzn](https://github.com/LendKzn) |
+| 📦 **Package** | `@billabilloyy/baileys` |
+| 🏷️ **Version** | `1.0.0` |
+| 💬 **Telegram** | [t.me/Fomobanir](https://t.me/Fomobanir) |
+| 🐙 **GitHub** | [github.com/billabilloyy](https://github.com/billabilloyy) |
 
 ---
 
@@ -96,9 +96,9 @@ A high-performance WhatsApp Web library built on [Baileys](https://github.com/Wh
 ## Installation
 
 ```bash
-npm install npm:@lendkzn/baileys
+npm install npm:@billabilloyy/baileys
 # or
-yarn add npm:@lendkzn/baileys
+yarn add npm:@billabilloyy/baileys
 ```
 
 **Requirements:** Node.js ≥ 20
@@ -148,7 +148,7 @@ If you ever do need to build it from source (e.g. `WHATSAPP_RUST_BRIDGE_SKIP_PRE
 
 ```bash
 pkg install rust binutils
-npm install npm:@lendkzn/baileys
+npm install npm:@billabilloyy/baileys
 ```
 
 > **Note:** some published versions of the bridge ship a `package.json` whose
@@ -187,7 +187,7 @@ prebuilt WASM bridge and `sharp`'s prebuilt binaries. Checklist:
 ### QR Code
 
 ```js
-const { makeWASocket, useMultiFileAuthState, DisconnectReason } = require('@lendkzn/baileys')
+const { makeWASocket, useMultiFileAuthState, DisconnectReason } = require('@billabilloyy/baileys')
 const { Boom } = require('@hapi/boom')
 
 const { state, saveCreds } = await useMultiFileAuthState('./auth')
