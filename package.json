@@ -1,7 +1,7 @@
 {
-  "name": "@lendkzn/baileys",
-  "version": "5.0.1",
-  "description": "Baileys Whatsapp Api Modification By Arlend",
+  "name": "@billabilloyy/baileys",
+  "version": "1.0.0",
+  "description": "Baileys Whatsapp Api Modification By @BilForYou",
   "keywords": [
     "whatsapp",
     "whatsapp-web",
@@ -14,10 +14,10 @@
     "md"
   ],
   "repository": {
-    "url": "https://github.com/LendKzn/baileys.git"
+    "url": "https://github.com/billabilloyy/baileys.git"
   },
   "license": "MIT",
-  "author": "Arlend",
+  "author": "Billa",
   "main": "src/index.js",
   "files": [
     "src/**/*",
